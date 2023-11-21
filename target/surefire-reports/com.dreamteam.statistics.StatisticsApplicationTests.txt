@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.dreamteam.statistics.StatisticsApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 28.577 s - in com.dreamteam.statistics.StatisticsApplicationTests
