@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.*;
 
 
 import com.dreamteam.statistics.model.player.Player;
+import com.dreamteam.statistics.model.*;
 import com.dreamteam.statistics.response.Response;
 import com.dreamteam.statistics.repository.*;
 import java.util.*;
@@ -16,7 +17,7 @@ public class TeamController{
 
 	@GetMapping
 	public Response getTeams() throws Exception{
-		List<Team> players = pl.findAll();
+		List<Equipe> players = pl.findAll();
 		return new Response().addData("teams" , players);
 	}
 
